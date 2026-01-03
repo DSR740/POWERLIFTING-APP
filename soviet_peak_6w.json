@@ -1,0 +1,699 @@
+{
+  "template_id": "soviet_peak_6w",
+  "name": "6-Week Soviet Peak",
+  "level": "advanced",
+  "duration_weeks": 6,
+  "training_days_per_week": 4,
+  "structure": {
+    "type": "block",
+    "phases": [
+      {
+        "name": "Accumulation",
+        "weeks": [
+          1,
+          2
+        ],
+        "notes": "Volume at 80\u201385%"
+      },
+      {
+        "name": "Intensification",
+        "weeks": [
+          3,
+          4
+        ],
+        "notes": "85\u201392.5%, singles introduced"
+      },
+      {
+        "name": "Realization/Taper",
+        "weeks": [
+          5,
+          6
+        ],
+        "notes": "92.5\u201397.5% singles; taper volume"
+      }
+    ]
+  },
+  "focus": {
+    "bench_freq": 3,
+    "sumo_lockout": false,
+    "quad_bias": false
+  },
+  "rules": {
+    "load_calc": {
+      "type": "percent_1rm"
+    },
+    "rounding": {
+      "mode": "ceiling",
+      "step_kg": 2.5
+    },
+    "deload_weeks": []
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "name": "Day 1 - Squat/Bench Volume",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.8
+              },
+              "notes": "Solid technique"
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "6x3",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Barbell",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Leg Curl",
+              "variant": "Machine",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deadlift/Bench",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x2",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Pause",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Back Extension",
+              "variant": "Weighted",
+              "scheme": "4x12",
+              "accessory": true
+            },
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Bench Focus",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x4",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "4x6",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            },
+            {
+              "type": "Shoulder",
+              "variant": "DB Press",
+              "scheme": "4x10",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Squat/Deadlift",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Pause",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "Weighted Plank",
+              "scheme": "4x45sec",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "name": "Day 1 - Squat/Bench",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "6x3",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Barbell",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Leg Curl",
+              "variant": "Machine",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deadlift/Bench",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Pause",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            },
+            {
+              "type": "Back Extension",
+              "variant": "Weighted",
+              "scheme": "4x12",
+              "accessory": true
+            },
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Bench Focus",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x4",
+              "intensity": {
+                "percent_1rm": 0.86
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "4x6",
+              "intensity": {
+                "percent_1rm": 0.78
+              }
+            },
+            {
+              "type": "Shoulder",
+              "variant": "DB Press",
+              "scheme": "4x10",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Squat/Deadlift",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Pause",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.86
+              }
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.86
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "Weighted Plank",
+              "scheme": "4x45sec",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "name": "Day 1 - Squat/Bench Heavy",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            },
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deadlift/Bench Heavy",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Pause",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Bench Focus",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            },
+            {
+              "type": "Triceps",
+              "variant": "Dips",
+              "scheme": "4x8",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Squat/Deadlift",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Pause",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        {
+          "name": "Day 1 - Squat/Bench",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deadlift/Bench",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Pause",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Bench Focus",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "3x4",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Squat/Deadlift",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Singles",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.95
+              },
+              "top_set": true
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.95
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deadlift Heavy",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.95
+              },
+              "top_set": true
+            },
+            {
+              "type": "Back Extension",
+              "variant": "Weighted",
+              "scheme": "3x10",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Bench Practice",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            },
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Technique Taper",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        {
+          "name": "Day 1 - Light Technique",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Single Practice",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            },
+            {
+              "type": "Bench Press",
+              "variant": "Pause",
+              "scheme": "2x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Restorative",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x2",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "Plank",
+              "scheme": "3x60sec",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Opener Rehearsal",
+          "exercises": [
+            {
+              "type": "Squat",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

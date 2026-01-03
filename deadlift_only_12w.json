@@ -1,0 +1,570 @@
+{
+  "template_id": "deadlift_only_12w",
+  "name": "Deadlift Only (12 Weeks)",
+  "level": "intermediate",
+  "duration_weeks": 12,
+  "training_days_per_week": 2,
+  "structure": {
+    "type": "block",
+    "phases": [
+      {
+        "name": "Accumulation",
+        "weeks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "notes": "60\u201375%, build volume"
+      },
+      {
+        "name": "Intensification",
+        "weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "notes": "75\u201385%, harder variations"
+      },
+      {
+        "name": "Realization",
+        "weeks": [
+          10,
+          11,
+          12
+        ],
+        "notes": "85\u201395% singles"
+      }
+    ]
+  },
+  "focus": {
+    "bench_freq": 0,
+    "sumo_lockout": true,
+    "quad_bias": false
+  },
+  "rules": {
+    "load_calc": {
+      "type": "percent_1rm"
+    },
+    "rounding": {
+      "mode": "ceiling",
+      "step_kg": 2.5
+    },
+    "deload_weeks": [
+      7
+    ]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "name": "Day 1 - Volume Pull",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x5",
+              "intensity": {
+                "percent_1rm": 0.65
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Barbell",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Hamstrings",
+              "variant": "RDL",
+              "scheme": "4x8",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Technique",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Paused Below Knee",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.6
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "Hanging Leg Raise",
+              "scheme": "4x10",
+              "accessory": true
+            },
+            {
+              "type": "Grip",
+              "variant": "Static Hold",
+              "scheme": "4x30sec",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "name": "Day 1 - Volume Pull",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x4",
+              "intensity": {
+                "percent_1rm": 0.7
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Barbell",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Hamstrings",
+              "variant": "RDL",
+              "scheme": "4x8",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Deficits",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Deficit (2cm)",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.65
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "McGill Curl-Up",
+              "scheme": "4x10",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Lat Pulldown",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "name": "Day 1 - Volume Pull",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "6x3",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Chest Supported",
+              "scheme": "4x10",
+              "accessory": true
+            },
+            {
+              "type": "Hamstrings",
+              "variant": "Leg Curl",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Block Pulls",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull (mid-shin)",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.78
+              }
+            },
+            {
+              "type": "Glutes",
+              "variant": "Hip Thrust",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Grip",
+              "variant": "Farmer Carry",
+              "scheme": "4x40m",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        {
+          "name": "Day 1 - Overwarm",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.85
+              },
+              "top_set": true
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Paused",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Paused Below Knee",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            },
+            {
+              "type": "Back",
+              "variant": "Pullover",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Triples",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Row",
+              "variant": "Barbell",
+              "scheme": "4x8",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Speed Pulls",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "8x2",
+              "intensity": {
+                "percent_1rm": 0.7
+              },
+              "notes": "Short rests"
+            },
+            {
+              "type": "Hamstrings",
+              "variant": "RDL",
+              "scheme": "3x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Doubles",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            },
+            {
+              "type": "Grip",
+              "variant": "Static Hold",
+              "scheme": "4x30sec",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Block Pulls Heavy",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull (mid-shin)",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Lat Pulldown",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "days": [
+        {
+          "name": "Deload - Technical",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.65
+              }
+            },
+            {
+              "type": "Back",
+              "variant": "Back Extension",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Deload - Speed",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x1",
+              "intensity": {
+                "percent_1rm": 0.7
+              },
+              "notes": "Fast singles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Doubles",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x2",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Paused",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Paused Below Knee",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Core",
+              "variant": "Plank",
+              "scheme": "3x60sec",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "days": [
+        {
+          "name": "Day 1 - Overwarm Single",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            },
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Block Pulls",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Block Pull",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Singles",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Speed Singles",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "5x1",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "days": [
+        {
+          "name": "Day 1 - Opener Practice",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Taper",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "days": [
+        {
+          "name": "Week of Peak - Light",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "name": "Meet/Max Week - Optional",
+          "exercises": [
+            {
+              "type": "Deadlift",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

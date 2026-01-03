@@ -1,0 +1,797 @@
+{
+  "template_id": "bench_only_12w",
+  "name": "Bench Only (12 Weeks)",
+  "level": "intermediate",
+  "duration_weeks": 12,
+  "training_days_per_week": 4,
+  "structure": {
+    "type": "block",
+    "phases": [
+      {
+        "name": "Volume",
+        "weeks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "notes": "60\u201375%, more reps"
+      },
+      {
+        "name": "Strength",
+        "weeks": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "notes": "75\u201387%, lower reps"
+      },
+      {
+        "name": "Peak/Taper",
+        "weeks": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "notes": "Singles to 92\u201395%, taper volume"
+      }
+    ]
+  },
+  "focus": {
+    "bench_freq": 4,
+    "sumo_lockout": false,
+    "quad_bias": false
+  },
+  "rules": {
+    "load_calc": {
+      "type": "percent_1rm"
+    },
+    "rounding": {
+      "mode": "ceiling",
+      "step_kg": 2.5
+    },
+    "deload_weeks": [
+      9
+    ]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench Volume",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x6",
+              "intensity": {
+                "percent_1rm": 0.65
+              }
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Row (Chest Supported)",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Close Grip",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "4x6",
+              "intensity": {
+                "percent_1rm": 0.62
+              }
+            },
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Bench",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "5x4",
+              "intensity": {
+                "percent_1rm": 0.7
+              }
+            },
+            {
+              "type": "Shoulder",
+              "variant": "DB Press",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Overhead & Health",
+          "exercises": [
+            {
+              "type": "Shoulder",
+              "variant": "Strict Press",
+              "scheme": "4x6",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            },
+            {
+              "type": "Rotator Cuff",
+              "variant": "External Rotation",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench Volume",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x5",
+              "intensity": {
+                "percent_1rm": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Close Grip",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "4x5",
+              "intensity": {
+                "percent_1rm": 0.68
+              }
+            },
+            {
+              "type": "Triceps",
+              "variant": "Dip (Weighted)",
+              "scheme": "4x8",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Bench",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Overhead & Health",
+          "exercises": [
+            {
+              "type": "Shoulder",
+              "variant": "Strict Press",
+              "scheme": "4x6",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            },
+            {
+              "type": "Rotator Cuff",
+              "variant": "External Rotation",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "4x4",
+              "intensity": {
+                "percent_1rm": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Slingshot Overload",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Slingshot",
+              "scheme": "3x4",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            },
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Heavy",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.78
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Shoulder/Upper Back",
+          "exercises": [
+            {
+              "type": "Shoulder",
+              "variant": "DB Press",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Row (Chest Supported)",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.78
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Close Grip",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "4x4",
+              "intensity": {
+                "percent_1rm": 0.72
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Board Press",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "2-Board",
+              "scheme": "4x3",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Shoulder/Back Health",
+          "exercises": [
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            },
+            {
+              "type": "Rotator Cuff",
+              "variant": "External Rotation",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x3",
+              "intensity": {
+                "percent_1rm": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Slingshot Overload",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Slingshot",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Heavy",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Triceps/Delts",
+          "exercises": [
+            {
+              "type": "Triceps",
+              "variant": "Dip (Weighted)",
+              "scheme": "4x8",
+              "accessory": true
+            },
+            {
+              "type": "Shoulder",
+              "variant": "DB Press",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench Doubles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "5x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Board Press",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "2-Board",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Singles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.87
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Triceps/Back",
+          "exercises": [
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "4x12",
+              "accessory": true
+            },
+            {
+              "type": "Upper Back",
+              "variant": "Row (Chest Supported)",
+              "scheme": "4x10",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench Doubles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "4x2",
+              "intensity": {
+                "percent_1rm": 0.87
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Slingshot",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Slingshot",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Pause Singles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Health/Accessories",
+          "exercises": [
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "4x15",
+              "accessory": true
+            },
+            {
+              "type": "Rotator Cuff",
+              "variant": "External Rotation",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "days": [
+        {
+          "name": "Day 1 - Comp Bench Singles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Close Grip Backoffs",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Board Press",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "2-Board",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Light Accessories",
+          "exercises": [
+            {
+              "type": "Triceps",
+              "variant": "Pushdown",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "days": [
+        {
+          "name": "Deload - Technique",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "3x3",
+              "intensity": {
+                "percent_1rm": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "name": "Deload - Pause",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (2s)",
+              "scheme": "2x2",
+              "intensity": {
+                "percent_1rm": 0.72
+              }
+            }
+          ]
+        },
+        {
+          "name": "Deload - Accessories",
+          "exercises": [
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        },
+        {
+          "name": "Optional Mobility",
+          "exercises": [
+            {
+              "type": "Shoulder",
+              "variant": "Band Work",
+              "scheme": "3x15",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "days": [
+        {
+          "name": "Day 1 - Heavy Singles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Close Grip",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Close Grip",
+              "scheme": "3x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Board Press",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "2-Board",
+              "scheme": "3x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Accessories",
+          "exercises": [
+            {
+              "type": "Triceps",
+              "variant": "Dip (Weighted)",
+              "scheme": "3x8",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "days": [
+        {
+          "name": "Day 1 - Opener Practice",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.9
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Day 2 - Taper Doubles",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x2",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 3 - Soft Pause",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Pause (1s)",
+              "scheme": "2x2",
+              "intensity": {
+                "percent_1rm": 0.82
+              }
+            }
+          ]
+        },
+        {
+          "name": "Day 4 - Health",
+          "exercises": [
+            {
+              "type": "Upper Back",
+              "variant": "Face Pull",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "days": [
+        {
+          "name": "Week of Peak - Light",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "2x1",
+              "intensity": {
+                "percent_1rm": 0.85
+              }
+            }
+          ]
+        },
+        {
+          "name": "Meet/Max Week - Optional",
+          "exercises": [
+            {
+              "type": "Bench Press",
+              "variant": "Competition",
+              "scheme": "1x1",
+              "intensity": {
+                "percent_1rm": 0.92
+              },
+              "top_set": true
+            }
+          ]
+        },
+        {
+          "name": "Shoulder Health",
+          "exercises": [
+            {
+              "type": "Rotator Cuff",
+              "variant": "External Rotation",
+              "scheme": "3x12",
+              "accessory": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

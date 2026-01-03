@@ -1,0 +1,57 @@
+{
+  "template_id": "string",
+  "name": "string",
+  "level": "novice|intermediate|advanced",
+  "duration_weeks": 0,
+  "training_days_per_week": 0,
+  "structure": {
+    "type": "block|weekly_pattern",
+    "phases": [
+      {
+        "name": "string",
+        "weeks": [
+          1
+        ],
+        "notes": "string"
+      }
+    ]
+  },
+  "focus": {
+    "bench_freq": 0,
+    "sumo_lockout": false,
+    "quad_bias": false
+  },
+  "rules": {
+    "load_calc": {
+      "type": "percent_1rm"
+    },
+    "rounding": {
+      "mode": "ceiling",
+      "step_kg": 2.5
+    },
+    "deload_weeks": []
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "name": "Day X - Title",
+          "exercises": [
+            {
+              "type": "Squat|Bench Press|Deadlift|Accessory",
+              "variant": "Competition|Pause|Tempo|Close Grip|Block Pull|Deficit",
+              "scheme": "sets x reps",
+              "intensity": {
+                "percent_1rm": 0.0
+              },
+              "top_set": false,
+              "notes": "string",
+              "accessory": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
